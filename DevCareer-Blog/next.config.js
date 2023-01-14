@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  target: serverless,
 };
 
 module.exports = {
@@ -10,7 +9,8 @@ module.exports = {
     cfg.module.rules.push({
       test: /\.md$/,
       loader: "frontmatter-markdown-loader",
-      options: { mode: ["react-component"] },
+      options: { mode: ["react-component"],
+      target: 'serverless', },
       // use: 'raw-loader'
 
       
