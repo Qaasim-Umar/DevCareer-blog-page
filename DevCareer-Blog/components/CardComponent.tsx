@@ -7,12 +7,12 @@ import { cards } from "../utils/content";
 const CardComponent = () => {
   return (
     <div className="py-8">
-      ``
+    &apos;
       <aside className="hidden md:block w-[20%] h-[78rem] float-right mr-10  ml-12 py-12 pl-4 md:border-opacity-1 md:border-l-[1px] md:border-l-neutral-300">
         <div className="text-lg font-semibold text-gray">
           <p>
             {" "}
-            We're a place where coders share, stay up-to-date and grow their
+            We&apos;re a place where coders share, stay up-to-date and grow their
             careers.
           </p>
         </div>

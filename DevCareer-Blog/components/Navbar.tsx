@@ -18,7 +18,7 @@ const Nav = (): JSX.Element => {
         {/*code for write button after upgrade*/}
       {/* <div className="flex gap-1 transition duration-200 hover:text-white "><Write/> <span>Write</span></div> */}
       
-        <button className="transition duration-200 rounded-3xl border text-base border-black px-3 py-1 md:px-7 md:py-3 md: text-base text-black hover:text-white hover:bg-black">
+        <button className="transition duration-200 rounded-3xl border border-black px-3 py-1 md:px-7 md:py-3 md: text-base text-black hover:text-white hover:bg-black">
           Admin Login
         </button>
       </div>
