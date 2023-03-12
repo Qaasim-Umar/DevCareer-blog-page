@@ -1,6 +1,6 @@
 ---
 posts:
-  - author: Blessing Okonkwo
+  - author: Qaasim Umarm
     date: 30/12/2022
     article_title: Integrating your blog site with Netlify CMS
     article_description: Serverless SaaS is aiming to be the perfect starting point

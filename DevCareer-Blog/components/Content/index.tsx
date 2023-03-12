@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { cards, likes, tags } from "../../utils/content";
+import { cards, likes, tags, summaryCard } from "../../utils/content";
 import BookIcon from "../vectors/BookIcon";
 import BookMarkIcon from "../vectors/BookmarkIcon";
 import CommentIcon from "../vectors/CommentIcon";
@@ -94,7 +94,7 @@ const Content = (props: ContentType) => {
             More articles
           </h4>
           <div className="flex flex-col mb-8 lg:flex-row gap-y-6 lg:gap-y-0 gap-x-8">
-            {cards.map((card, i) => (
+            {summaryCard.map((card, i) => (
               <div
                 className="flex flex-col px-4 py-3 border rounded-md gap-y-2"
                 key={card.title + i}

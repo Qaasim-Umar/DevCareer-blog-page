@@ -27,7 +27,6 @@ export default function Home() {
         <Search/>
         <CardComponent />
         <Article/>
-       
       </div>
     </div>
   );
