@@ -1,8 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import { cards } from "../utils/content";
 // import fs from "fs";
 // import matter from "gray-matter";
-// import Link from "next/link";
 
 const CardComponent = () => {
   return (
@@ -52,12 +52,11 @@ const CardComponent = () => {
                 {card.title}
               </h1>
               <p className="mb-5 text-gray-700">{card.summary}</p>
-              <a
-                href={`/articles/${card.id}`}
+              <Link href={`/articles/${card.id}`}
                 className="text-indigo-500 transition border-b-2 w-20 border-b-gray-500"
               >
                 Read more
-              </a>
+              </Link>
             </div>
             <hr className="mt-9" />
           </div>
