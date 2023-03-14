@@ -47,7 +47,8 @@ export default class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap"
                         rel="stylesheet"
                     />
-
+                    
+                    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
                 </Head>
                 <body>
                     <Main />
