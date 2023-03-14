@@ -9,9 +9,12 @@ import netlifyAuth from '../netlifyAuth.js'
 const Nav = (): JSX.Element => {
 
 
+
+
+
+
   let [loggedIn, setLoggedIn] = useState(netlifyAuth.isAuthenticated)
 
-  
 useEffect(() => {
   netlifyAuth.initialize((user : any) => {
     setLoggedIn(!!user)
@@ -20,11 +23,10 @@ useEffect(() => {
 
 
 
+
+
+
 let [user, setUser] = useState(null)
-
-
-
-
 
 let login = () => {
   netlifyAuth.authenticate((user: any) => {

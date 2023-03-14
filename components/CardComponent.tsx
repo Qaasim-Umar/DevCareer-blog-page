@@ -28,7 +28,7 @@ const CardComponent = () => {
               className="  hover:bg-grey bg-black rounded-xl text-white px-6 py-2 my-4"
             >
               {" "}
-              Cummin...{" "}
+              Cumin...{" "}
             </a>
           </span>
         </div>

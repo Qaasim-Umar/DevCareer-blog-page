@@ -27,6 +27,9 @@ const netlifyAuth = {
       callback()
     })
   },
+  closeModal(callback){
+    
+  }
 }
 
 export default netlifyAuth
