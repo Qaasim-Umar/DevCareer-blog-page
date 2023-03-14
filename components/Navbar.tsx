@@ -11,8 +11,9 @@ const Nav = (): JSX.Element => {
 
   let [loggedIn, setLoggedIn] = useState(netlifyAuth.isAuthenticated)
 
+  
 useEffect(() => {
-  netlifyAuth.initialize((user) => {
+  netlifyAuth.initialize((user : any) => {
     setLoggedIn(!!user)
   })
 }, [loggedIn])
@@ -26,7 +27,7 @@ let [user, setUser] = useState(null)
 
 
 let login = () => {
-  netlifyAuth.authenticate((user) => {
+  netlifyAuth.authenticate((user: any) => {
     setLoggedIn(!!user)
     setUser(user)
     netlifyAuth.closeModal()
