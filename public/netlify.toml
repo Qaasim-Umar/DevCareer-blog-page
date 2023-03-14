@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build && npm run export"
-  publish = "out"
+  command = "npm run build && cp _redirects dist/_redirects"
+  publish = "dist"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
